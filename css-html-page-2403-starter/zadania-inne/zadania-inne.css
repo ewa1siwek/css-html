@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    background: gray;
+}
+
+.container {
+    background: transparent;
+}
+.left-column {
+    width: 600px;
+    margin-right: 50px;
+    float: left;
+    border: 3px solid green;
+}
+
+
+.right-column {
+    width: 250px;
+    height: 1300px;
+    float: left;
+    padding: 30px;
+}
+.first-row {
+    height: 400px;
+    background: yellow;
+    margin-bottom: 50px;
+}
+
+.second-row {
+    background: red;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.third-row {
+    background: red;
+    height: 200px;
+
+}
+
+.small-left-column {
+    background: cyan;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.small-right-column {
+    background: goldenrod;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+footer {
+    background: crimson;
+    height: 300px;
+
+}
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.containerr {
+    width: 500px;
+    height: 500px;
+    background: yellow;
+    margin: 50px;
+    position: relative;
+}
+.box {
+    position: absolute;
+    background: red;
+    width: 110px;
+    height: 110px;
+}
+
+.red-bottom-left {
+    bottom: 0;
+}
+
+.red-bottom-right {
+    right: 0;
+    bottom: 0;
+}
+
+.red-top-right {
+    right: 0;
+}
+.green-center {
+    background: green;
+    position: absolute;
+    right: 110px;
+    width: 110px;
+    bottom: 110px;
+    top: 110px;
+}
